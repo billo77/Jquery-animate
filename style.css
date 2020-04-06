@@ -1,0 +1,88 @@
+body {
+	line-height: 1.5em;
+}
+header {
+	background: rgb(32, 118, 189);
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+	border-bottom: 2px solid #000;
+	margin-bottom: 10px;
+}
+.para1 {
+	color: #fff;
+}
+#heading1 {
+	font-size: 25px;
+	animation: blink 1s infinite;
+	text-align: center;
+}
+#heading2 {
+	margin-top: 55px;
+	animation: blink2 1s infinite;
+}
+#container {
+	width: 90%;
+	margin: auto;
+	padding: 10px;
+}
+#demo {
+	background: green;
+	height: 100px;
+	width: 100px;
+	position: relative;
+	animation: blink 1s infinite;
+}
+#parentDemo {
+	position: relative;
+}
+#paragraph1 {
+	height: 100px;
+	width: 500px;
+	padding: 20px;
+	background: green;
+}
+.red {
+	background: red;
+}
+#list {
+	animation: blink 1s infinite;
+}
+@keyframes blink2 {
+	0% {
+		opacity: 1.0;
+	}
+	50% {
+		opacity: 0.0;
+	}
+	100% {
+		opacity: 1.0;
+	}
+}
+
+@keyframes blink {
+	0% {
+		color: red;
+	}
+	15% {
+		color: blue;
+	}
+	30% {
+		color: green;
+	}
+	45% {
+		color: yellow;
+	}
+	60% {
+		color: brown;
+	}
+	75% {
+		color: gray;
+	}
+	90% {
+		color: red;
+	}
+	100% {
+		color: blue;
+	}
+}
